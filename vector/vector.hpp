@@ -1,6 +1,6 @@
 #pragma once
-
-class Vertex 
+template<typename T>
+class vector
 {
 private:
     int m_x,m_y,m_z;
