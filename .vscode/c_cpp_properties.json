@@ -8,7 +8,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:/Program Files/mingw/MinGW/bin/g++.exe",
+            "compilerPath": "C:/Program Files/MinGW/bin/g++.exe",
             "cStandard": "c23",
             "cppStandard": "c++23",
             "intelliSenseMode": "windows-gcc-x64",
