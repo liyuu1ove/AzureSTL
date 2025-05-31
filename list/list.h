@@ -1,10 +1,9 @@
 #pragma once
 #include <iostream>
 
-
 template <typename T>
-class SLList {
-private:
+class List{
+protected:
     class ListNode {
     private:
         T _data;
@@ -29,9 +28,13 @@ private:
             return _size();
         }
     };
+};
 
-    ListNode* _first;
-    
+template <typename T>
+class SLList:public List<T>
+{
+private:
+ListNode* _first;    
 public:
     SLList(T data){
         _first=new ListNode(data,nullptr);
